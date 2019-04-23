@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/LandingSite/static/css/main.e7a83a49.chunk.css",
+    "main.js": "/LandingSite/static/js/main.8d5b94ee.chunk.js",
+    "main.js.map": "/LandingSite/static/js/main.8d5b94ee.chunk.js.map",
+    "runtime~main.js": "/LandingSite/static/js/runtime~main.cee8676f.js",
+    "runtime~main.js.map": "/LandingSite/static/js/runtime~main.cee8676f.js.map",
+    "static/js/2.94933ddc.chunk.js": "/LandingSite/static/js/2.94933ddc.chunk.js",
+    "static/js/2.94933ddc.chunk.js.map": "/LandingSite/static/js/2.94933ddc.chunk.js.map",
+    "index.html": "/LandingSite/index.html",
+    "precache-manifest.4616ec9c7192221e516a7022453245aa.js": "/LandingSite/precache-manifest.4616ec9c7192221e516a7022453245aa.js",
+    "service-worker.js": "/LandingSite/service-worker.js",
+    "static/css/main.e7a83a49.chunk.css.map": "/LandingSite/static/css/main.e7a83a49.chunk.css.map",
+    "static/media/background.jpg": "/LandingSite/static/media/background.a781f854.jpg",
+    "static/media/leo.jpg": "/LandingSite/static/media/leo.af037b33.jpg",
+    "static/media/purpose.jpg": "/LandingSite/static/media/purpose.6478ac22.jpg",
+    "static/media/yiran.png": "/LandingSite/static/media/yiran.26b08b6a.png"
+  }
+}
