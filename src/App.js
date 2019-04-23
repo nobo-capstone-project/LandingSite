@@ -3,6 +3,7 @@ import { HashRouter as Router, Route } from 'react-router-dom';
 import './App.css';
 import Homepage from './Homepage';
 import About from './About';
+import Project from './Project';
 import Navbar from './CusNavbar';
 import Footer from './Footer';
 
@@ -13,6 +14,7 @@ class App extends Component {
         <div>
           <Navbar />
           <Route exact path="/" component={Homepage} />
+          <Route path="/project" component={Project} />
           <Route path="/about" component={About} />
           <Footer />
         </div>

@@ -13,11 +13,6 @@ class Homepage extends Component {
                 <MediaQuery maxDeviceWidth={768}>
                     <Row>
                         <Col xs="12">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris condimentum gravida neque a porta. Nullam fringilla, turpis id dapibus varius, orci odio venenatis purus, id sodales nibh odio quis purus. Sed diam velit, vestibulum sit amet consectetur a, faucibus non purus. Sed quis tincidunt elit. Suspendisse egestas molestie lorem, sit amet fringilla lacus consequat id. Mauris semper ullamcorper diam vitae scelerisque. Nulla dapibus eget metus id porttitor.
-                            </p>
-                        </Col>
-                        <Col xs="12">
                             <img src={require('./background.jpg')} alt='background' />
                         </Col>
                     </Row>
@@ -90,7 +85,7 @@ class Homepage extends Component {
                             <CardTitle>Accessibility</CardTitle>
                             <CardText>
                                 <ul>
-                                    <li>Supported Features for Blind / Deaf Users.</li>
+                                    <li>Supports elevation and grade for people with disabilities.</li>
                                     <li>
                                         Assists and Encourages People with Disabilities to Travel the World.
                                     </li>
