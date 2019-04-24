@@ -11,10 +11,13 @@ class Project extends Component {
               <h2 style={Style.headText}>TravelEasy</h2>
               <p style={Style.headText}>TravelEasy provides a efficient solution for tourists to explore
               a new destination. Users are able to search routes basic on their current location or kew words.
-              Within each route, the app elaborately list every stop and its description. Users also can view 
-              comments and votes for each route in order to choose a best fit route. Beside that, we aim to 
-              develop a collaborative community, that users can edit and post new routes to the app. 
+              Within each route, the app elaborately list every stop and its description. Users also can view
+              comments and votes for each route in order to choose a best fit route. Beside that, we aim to
+              develop a collaborative community, that users can edit and post new routes to the app.
                </p>
+              <div style={Style.center}>
+                <a href="https://github.com/nobo-capstone-project/TravelEasy">GitHub Repository</a>
+              </div>
             </div>
           </div>
         </div>
@@ -49,6 +52,10 @@ const Style = {
   gallery: {
     display: "flex",
     justifyContent: "center"
+  },
+  center: {
+    textAlign: "center",
+    width: "100%"
   }
 };
 
