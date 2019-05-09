@@ -112,7 +112,7 @@ class Homepage extends Component {
                     <div style={Style.space}>
                         <div className="container">
                             <div>
-                                <h2 style={Style.headText}>TravelEasy</h2>
+                                <h2 style={Style.headText}>TERN</h2>
                                 <p style={Style.headText}>TravelEasy provides a efficient solution for tourists to explore
                                 a new destination. Users are able to search routes basic on their current location or kew words.
                                 Within each route, the app elaborately list every stop and its description. Users also can view

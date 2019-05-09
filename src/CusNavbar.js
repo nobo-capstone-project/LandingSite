@@ -16,7 +16,7 @@ class CusNavbar extends Component {
         </MediaQuery>
         <MediaQuery minDeviceWidth={769}>
           <Navbar.Brand>
-            <p>TravelEasy</p>
+            <p>TERN</p>
           </Navbar.Brand>
         </MediaQuery>
           <Navbar.Toggle />
