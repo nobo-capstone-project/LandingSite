@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
 
 h2 {
-    color: #a9fec9;
+    color: #F7B633;
     letter-spacing: 10px;
     font-weight: 700;
     text-align: left;
@@ -12,7 +12,10 @@ h2 {
 .card {
     margin-top: 100px;
     border-radius:5px;
-    box-shadow: 10px 10px 50px rgba(0,0,0,0.5);
+    /* border-color: #F7B633; */
+    /* border-style: solid; */
+    border: 2px solid #F7B633;
+    /* box-shadow: 5px 5px 10px  rgba(247, 182, 51, 0.5); */
     padding:15%;
     padding-left: 8%;
     height: 400px;
@@ -20,7 +23,7 @@ h2 {
 }
 
 .card-title {
-    color: #a9fec9;
+    color: #F7B633;
     font-size: 24px;
     font-weight: 700;
     letter-spacing: 6px;
@@ -28,18 +31,19 @@ h2 {
 
 .card-text {
     padding-top: 10px;
+    color: #666666;
 }
 
 .title-row {
     margin-top: 0px;
     /* margin-bottom: 80px; */
     height: 20px; 
-    color: white;
+    color: #666666;
     text-align: center;
 }
 
 .features-title {
-    color: white;
+    color: #F7B633;
     font-size: 22px;
     text-align: center;
     margin-bottom: 40px;
@@ -49,12 +53,12 @@ h2 {
 
 .catch-line {
     font-size: 18px;
-    color: rgb(255, 255, 167);
+    color: #F7B633;
 }
 
 .subtitle {
     font-size: 16px;
-    color: rgb(227, 227, 227);
+    color: #666666;
 }
 
 

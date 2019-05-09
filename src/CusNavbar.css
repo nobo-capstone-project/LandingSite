@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
 
 nav.navbar, .navbar-default {
-  background-color: #1D1D25 !important;
+  background-color: #F7B633 !important;
 }
 
 .navbar-default {
@@ -41,7 +41,7 @@ nav.navbar, .navbar-default {
 }
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-  color: #a9fec9;
+  color: '#022C43';
   background-color: transparent;
 }
 
