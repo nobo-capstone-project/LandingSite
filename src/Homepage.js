@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Card, CardText, CardTitle } from 'reactstrap';
 import { Col, Row } from 'react-bootstrap';
 import MediaQuery from 'react-responsive';
-import { Flex, Box } from 'reflexbox';
 
 import './Homepage.css';
 import './background.jpg';
