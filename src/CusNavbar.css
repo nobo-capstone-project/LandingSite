@@ -1,28 +1,42 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
 
+
 nav.navbar, .navbar-default {
-  background-color: #F7B633 !important;
+  background-color: #ffffff !important;
+  margin-bottom: 0px;
 }
 
 .navbar-default {
   background-image: none;
   border: none;
+  border-color: transparent;
+  box-shadow: none;
   border-radius: 0;
-  font-family:'Roboto', sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 16px;
-  padding-top: 40px;
+  padding-top: 0px;
 }
 
 .navbar-default .navbar-nav > li > a {
-  color: white;
+  color: #F7B633;
   font-weight: 600;
+  padding-top: 50px;
+  /* padding-bottom: 0px; */
 }
 
 .navbar-default .navbar-brand {
-  color: white;
+  color: #F7B633;
   font-weight: 600;
   letter-spacing: 0.5em;
+  width: 100px;
+  height: 90px;
+    /* left: 15px; */
 }
+
+.navbar-brand {
+  margin-top: 10px;
+}
+
 
 .navbar-default .navbar-toggle {
   border-color: white;
@@ -41,7 +55,7 @@ nav.navbar, .navbar-default {
 }
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-  color: '#022C43';
+  color: #F15A5C;
   background-color: transparent;
 }
 
