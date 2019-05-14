@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i|Nunito:400,400i,600,600i,700,700i');
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+h1 {
+    color: #F15A5C;
+    font-weight: 700;
+    padding-top: 60px;
+    font-size: 34px;
+    
+}
+
+
+
+
+#feature {
+    padding-top: 0px;
+}
+
+p.subtitle {
+    font-size: 16px;
+    letter-spacing: 0px;
+    padding-top: 50px;
+}
+
+
+
+
