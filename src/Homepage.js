@@ -10,151 +10,143 @@ class Homepage extends Component {
     render() {
         return (
             <div>
-                <div className='container'>
-                    {/* <h2>TravelEasy</h2> */}
-                    <MediaQuery maxDeviceWidth={768}>
+                <div class="intro">
                         <Row>
-                            <Col xs="12">
-                                <img src={require('./background.jpg')} alt='background' />
-                            </Col>
-                        </Row>
-                    </MediaQuery>
-                    <MediaQuery minDeviceWidth={769}>
-                        <Row>
-                            <Col xs="6">
+                            <Col xs="1"></Col>
+                            <Col xs="5">
 
-                                <h2 className="catch-line">An Application to help You Explore the Places Less Traveled.. Easily!</h2>
-                                <p className="subtitle">"We aim to Develop a Collaborative Community that Generates Quality Travel Guides for all around the World. They are designed to help you explore places that can be very difficult to navigate as a Tourist or Foreigner."</p>
-                            </Col>
-                            <Col xs="6">
-                                <img src={require('./background.jpg')} alt='background' />
-                            </Col>
-                        </Row>
-                    </MediaQuery>
-
-                    <div className="title-row" >
-                        <Col sm="12" >
-                            <h2 className="features-title">Features of this Product:</h2>
-                        </Col>
-                    </div>
-
-                    <Row style={{ marginBottom: "50px" }}>
-                        <Col sm="4">
-                            <Card body>
-                                <CardTitle>Quality Guides</CardTitle>
-                                <CardText>
-                                    <ul>
-                                        <li>
-                                            Insider Suggestions for Recreation, Events, Restaurants, etc.
-                                    </li>
-
-                                        <li>
-                                            Similar Features to AllTrails / Yelp (Bookmark, Images, Ratings).
-                                    </li>
-
-                                        <li>
-                                            Detailed Routes that Seamlessly Direct to Google / Apple Maps.
-                                    </li>
-                                    </ul>
-
-
-                                </CardText>
-
-
-
-                            </Card>
-                        </Col>
-                        <Col sm="4">
-                            <Card body>
-                                <CardTitle>"Open-Sourced"</CardTitle>
-                                <CardText>
-                                    <ul>
-                                        <li>
-                                            Utilizes the large scale of users online to generate quality guides.
-                                    </li>
-
-                                        <li>
-                                            Community Ranked Guides - Upvoting and Downvoting to determine quality of routes.
-                                    </li>
-                                    </ul>
-
-
-                                </CardText>
-                            </Card>
-                        </Col>
-                        <Col sm="4">
-                            <Card body>
-                                <CardTitle>Accessibility</CardTitle>
-                                <CardText>
-                                    <ul>
-                                        <li>Supports elevation and grade for people with disabilities.</li>
-                                        <li>
-                                            Assists and Encourages People with Disabilities to Travel the World.
-                                    </li>
-                                    </ul>
-                                </CardText>
-                            </Card>
-                        </Col>
-                    </Row>
-
-                    {/* <Row>
-                    <Col sm="10">
-                        <Card body>
-                            <CardTitle>Join Our Email List to Be Notified of the Release of this Product!</CardTitle>
-                            <CardText>Lorem ipsum dolor sit amet<br />Lorem ipsum dolor sit amet</CardText>
-                        </Card>
-                    </Col>
-
-                </Row> */}
-                </div >
-                <div>
-                    <div style={Style.space}>
-                        <div className="container">
-                            <div>
-                                <h2 style={Style.headText}>TERN</h2>
-                                <p style={Style.headText}>TravelEasy provides a efficient solution for tourists to explore
-                                a new destination. Users are able to search routes basic on their current location or kew words.
-                                Within each route, the app elaborately list every stop and its description. Users also can view
-                                comments and votes for each route in order to choose a best fit route. Beside that, we aim to
-                                develop a collaborative community, that users can edit and post new routes to the app.
+                                <h1 className="catch-line">Introduction</h1>
+                                <p className="subtitle">We at Tern are committed to providing curated travel tours, making it possible for everyone and anyone to freely explore 
+                                any destination and serving you a one-stop solution for all of your travel needs. In our user research, we found that aspiring travelers often find brainstorming and logistics planning 
+                                for travel to be overwhelming. There are too many sources available, such as Google Reviews, Reddit, Yelp, and Airbnb, which do not have the sole purpose of 
+                                “Detailed Travel Planning.” With our service, travel planning can be more enjoyable and less burdensome. In addition, once embarking the travel, you can easily access the travel itineraries 
+                                and be guided to the next activities for the day.
                                 </p>
-                                <div style={Style.center}>
-                                    <a href="https://github.com/nobo-capstone-project/TravelEasy">GitHub Repository</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="container">
-                        <div style={{display: 'flex', flexDirection: 'row'}}>
-                            <div style={{width: "600px", textAlign: 'center'}}>
-                                <h3>EXPLORE</h3>
-                                <p>Allows end users to easily brainstorm travel guides</p>
-                            </div>
-                            <div style={{width: "600px", textAlign: 'center'}}>
-                                <h3>PLAN</h3>
-                                <p>Easily plan all of the logistics of each day guide</p>
-                            </div>
-                            <div style={{width: "600px", textAlign: 'center'}}>
-                                <h3>DO IT!</h3>
                                 <p>
-                                    Planned trips will be saved in
-                                    the app and be utilized during
-                                    the travel. Easily access the
-                                    navigation to each stop.
+                                    * More details at our GitHub Repository: <a href="https://github.com/nobo-capstone-project/TravelEasy">Tern GitHub</a>
                                 </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div style={Style.bgc}>
-                        <div className="container">
-                            <h2 style={Style.headText}>Live Prototype</h2>
-                            <div style={Style.gallery}>
-                                <iframe width="476" height="1000" src="//invis.io/DMRNWHJ7F5E" frameborder="0" allowfullscreen></iframe>
-
-                            </div>
-                        </div>
-                    </div>
+                            </Col>
+                            <Col xs="1">
+                            </Col>
+                            <Col xs="3">
+                                <img src={require('./loading.png')} alt='background' />
+                            </Col>
+                        </Row>
                 </div>
+                <div className="sectionbreak"></div>
+                <div>
+
+
+                        <Row>
+
+                            <Col xs="1"></Col>
+                            <Col xs="3">
+                                <img src={require('./explore.png')} alt='background' />
+                            </Col>
+                            <Col xs="1">
+                            </Col>
+                            <Col xs="6">
+
+                                <h2 >Features</h2>
+                                <Row>
+                                    <Col xs="2">
+                                        <img src={require('./brainstorm.png')} alt='background' />
+
+                                    </Col>
+                                    <Col xs="4">  
+                                        <h3>BRAINSTROM</h3> 
+                                        <p className='feature'>View posts from travelling enthusiasts around the world and get inspiration.</p>                             
+                                    </Col>
+                                    <Col xs="2">
+                                        <img src={require('./trending.png')} alt='background' />
+
+                                    </Col>
+                                    <Col xs="4">
+                                    <h3>TRENDING</h3> 
+                                        <p className='feature'>Know the hottest travelling style so you never get outdated.</p>
+                                    </Col>
+                                    
+                                </Row>
+                                <Row>
+                                    <Col xs="2">
+                                        <img src={require('./vote.png')} alt='background' />
+
+                                    </Col>
+                                    <Col xs="4">  
+                                        <h3>VOTING</h3> 
+                                        <p className='feature'>Upvote for your favorites trips, and downvote for your disliked trips.</p>                             
+                                    </Col>
+                                    <Col xs="2">
+                                        <img src={require('./credit.png')} alt='background' />
+
+                                    </Col>
+                                    <Col xs="4">
+                                        <h3>CREDITS</h3> 
+                                        <p className='feature'>Any behaviors count towards your credits, including posting, commenting, voting, etc.</p>
+                                    </Col>
+                                    
+                                </Row>
+                                
+                                <Row>
+                                    <Col xs="2">
+                                        <img src={require('./follow.png')} alt='background' />
+
+                                    </Col>
+                                    <Col xs="4">  
+                                        <h3>FOLLOW</h3> 
+                                        <p className='feature'>Anyone can be an expert in this community as long as you are enthusiastics in travelling and sharing. Get more inspiration from following experts and friends. </p>                             
+                                    </Col>
+                                    <Col xs="2">
+                                        <img src={require('./plan.png')} alt='background' />
+
+                                    </Col>
+                                    <Col xs="4">
+                                    <h3>PLAN TRIPS</h3> 
+                                        <p className='feature'>Add favored trips in your plan. Tern will send you notifications based on you needs and navigate you everywhere in the world. </p>
+                                    </Col>
+                                    
+                                </Row>
+                                
+                            </Col>
+                        </Row>
+                </div >
+                <div className="sectionbreak"></div>
+                
+                <div class="core">
+                    <Row>
+                        <Col xs="1"></Col>
+                        <Col xs="10">
+                        <h2>Core Screens </h2>
+                        <Row>
+                            <Col xs="4">
+                                <Col xs="1"></Col>
+                                <Col xs="10">
+                                    <img className="corescreen" src={require('./corescreen1.png')} alt='coresreen1' />
+                                    <img className="corescreen" src={require('./corescreen2.png')} alt='coresreen2' />
+                                </Col>
+                                {/* <Col xs="1"></Col> */}
+                            </Col>
+                            <Col xs="4">
+                                <Col xs="1"></Col>
+                                <Col xs="10">
+                                    <div className="sectionbreak"></div>
+                                    <img className="corescreen" src={require('./corescreen3.png')} alt='coresreen2' />
+                                </Col>
+                            </Col>
+                            <Col xs="4"> 
+                                <Col xs="1"></Col>
+                                <Col xs="10">
+                                <img className="corescreen" src={require('./corescreen4.png')} alt='coresreen4' />
+                                <img className="corescreen" src={require('./corescreen5.png')} alt='coresreen5' />
+                                </Col>
+                            </Col>
+                        </Row>
+                        </Col>
+                        <Col xs="2"></Col>
+                    </Row>
+                </div>
+                <div className="sectionbreak"></div>
+            
             </div>
         )
     }

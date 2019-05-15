@@ -1,64 +1,29 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i|Nunito:400,400i,600,600i,700,700i');
 
-h2 {
-    color: #F7B633;
-    letter-spacing: 10px;
+body {
+    font-family: 'Nunito', sans-serif;
+}
+h1 {
+    color: #F15A5C;
     font-weight: 700;
-    text-align: left;
-    padding-top: 68px;
+    padding-top: 60px;
+    font-size: 34px;
     
 }
 
-.card {
-    margin-top: 100px;
-    border-radius:5px;
-    /* border-color: #F7B633; */
-    /* border-style: solid; */
-    border: 2px solid #F7B633;
-    /* box-shadow: 5px 5px 10px  rgba(247, 182, 51, 0.5); */
-    padding:15%;
-    padding-left: 8%;
-    height: 400px;
-    margin-top: 0px;
+
+
+
+#feature {
+    padding-top: 0px;
 }
 
-.card-title {
-    color: #F7B633;
-    font-size: 24px;
-    font-weight: 700;
-    letter-spacing: 6px;
-}
-
-.card-text {
-    padding-top: 10px;
-    color: #666666;
-}
-
-.title-row {
-    margin-top: 0px;
-    /* margin-bottom: 80px; */
-    height: 20px; 
-    color: #666666;
-    text-align: center;
-}
-
-.features-title {
-    color: #F7B633;
-    font-size: 22px;
-    text-align: center;
-    margin-bottom: 40px;
-    margin-top: 0px;
-}
-
-
-.catch-line {
-    font-size: 18px;
-    color: #F7B633;
-}
-
-.subtitle {
+p.subtitle {
     font-size: 16px;
-    color: #666666;
+    letter-spacing: 0px;
+    padding-top: 50px;
 }
+
+
 
 
