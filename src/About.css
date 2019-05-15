@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i|Nunito:400,400i,600,600i,700,700i');
+
+.container {
+    font-family: 'Nunito', sans-serif;
+}
+
+h2 {
+    color: #F15A5C;
+    font-weight: 700;
+    padding-top: 30px;
+    font-size: 34px;
+    
+}
+
+h3 {
+    color: #F7B633;
+    font-weight: 500;
+    text-align: left;
+    padding-top: 0px;
+    letter-spacing: 0px;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+
+h4 {
+    color: #F15A5C;
+    font-weight: 500;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    
+}
+
+
+p {
+    color: #666666;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 0px;
+    line-height: 1.6;
+    margin-right: 30px;
+    margin-bottom: 0px;
+    letter-spacing: 0px;
+    padding-bottom: 30px;
+}
+
+img{
+    padding-top: 30px;
+    width: 100%
+}
+
+a {
+    color: #F7B633;;
+    font-weight: 500
+}
+
+.sectionbreak {
+ margin-top: 100px;   
+}
+
+.corescreen {
+    box-shadow: 0 1px 4px 0 #727272;
+    padding-top: 0px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    /* margin-left: 40px;
+    margin-right: 40px; */
+}
+
+div >.core {
+
+    background-image: url('./coreback.png');
+    width: 100%;
+    background-position: center;
+    background-size: 120%;
+
+}
+
+
+div.intro {
+    background-color: rgb(248, 233, 203);
+    /* padding-bottom: 30px; */
+    padding-top: 40px;
+}
+
+.viewmore {
+    font-size: 12px;
+
+}
+
+.profile {
+    padding-top: 0px;
+    margin: 0px;
+}
